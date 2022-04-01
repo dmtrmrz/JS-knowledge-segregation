@@ -2,6 +2,6 @@ const a = {
   x: 1,
   y: 2,
 };
-const b = Object.assign({}, a);
+const b = a;
 b.x = 3;
 console.log(a, b);
